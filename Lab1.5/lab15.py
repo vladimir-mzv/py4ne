@@ -13,5 +13,4 @@ for i in filenames:
       #  print(j)
         if "ip address " in j:
          #   print(j)
-            mylist = re.sub('[^0-9,.\ ]','', j)
-            print(mylist)
+            print(re.sub('[^0-9,.\ ]','', j))
